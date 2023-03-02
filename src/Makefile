@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall
 
-all: for_loops conditionals while_loops functions
+all: for_loops conditionals while_loops functions hello
 
 for_loops:
 	$(CC) $(CFLAGS) -o for_loops for_loops.c
@@ -15,6 +15,9 @@ while_loops:
 functions:
 	$(CC) $(CFLAGS) -o functions functions.c
 
+hello:
+	$(CC) $(CFLAGS) -o hello hello.c
+
 clean:
-	rm for_loops conditionals while_loops functions
+	rm for_loops conditionals while_loops functions hello
 
