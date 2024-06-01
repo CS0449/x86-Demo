@@ -12,7 +12,7 @@ ssh USERNAME@thoth.cs.pitt.edu
 ```
 Once you are logged in, navigate to your `private` directory using the change directory command (`cd`) and clone the repository:
 ```sh
-git clone https://github.com/shinwookim/ASM-demo.git
+git clone https://github.com/CS0449/x86-Demo.git
 ```
 
 Inspect the source files in the `src` directory. There are 3 C source files:
